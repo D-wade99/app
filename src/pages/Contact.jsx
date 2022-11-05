@@ -15,26 +15,26 @@ const Contact = () => {
           <div className="flex flex-row gap-6 mb-6  max-sm:flex-col ">
             <div className=" flex flex-col w-full shrink grid__mobile">
               <label htmlFor="first_name">First name</label>
-              <input id="first_name" className="border-solid border rounded-lg p-2 border-gray-300" type="text" name="first name" placeholder="Enter your first name" />
+              <input id="first_name" className="shadow border-solid border rounded-lg p-2 border-gray-300" type="text" name="first name" placeholder="Enter your first name" />
             </div>
             <div className=" flex flex-col w-full shrink ">
               <label htmlFor="last_name">Last name</label>
-              <input id="last_name" className="border-solid border rounded-lg p-2 border-gray-300" type="text" name="last name" placeholder="Enter your last name" />
+              <input id="last_name" className="shadow border-solid border rounded-lg p-2 border-gray-300" type="text" name="last name" placeholder="Enter your last name" />
             </div>
           </div>
           <div className="flex flex-col shrink w-full mb-6">
             <label htmlFor="email" >Email</label>
-            <input id="email" className="border border-solid rounded-lg border-gray-300 p-2" type="text" name="email" placeholder="youname@email.com" />
+            <input id="email" className="shadow border border-solid rounded-lg border-gray-300 p-2" type="text" name="email" placeholder="youname@email.com" />
           </div>
           <div className="flex flex-col shrink w-full mb-6">
             <label htmlFor="message" >Message</label>
-            <textarea id="message" className="border border-solid rounded-lg border-gray-300 p-2 resize-none h-[132px] " placeholder="Send me a message and i'll reply you as soon as possible" />
+            <textarea id="message" className="shadow border border-solid rounded-lg border-gray-300 p-2 resize-none h-[132px] " placeholder="Send me a message and i'll reply you as soon as possible" />
           </div>
             
           <input type="checkbox" id="check_box"/>
           <label htmlFor="check_box">You agree to provide your date to Sijuade Daniel who may contact you.</label>
           
-          <button id="btn__submit" className="w-full mt-[32px] bg-blue-700 text-white hover:bg-blue-800 border boder-solid rounded-lg">Send message</button>
+          <button id="btn__submit" className="shadow w-full mt-[32px] bg-blue-700 text-white hover:bg-blue-800 border boder-solid rounded-lg">Send message</button>
         </form>
       </div>
         <footer className="flex md:flex-row flex-col justify-between py-10 mt-[100px] lg:mx-[113px] mx-5 border-t-2 " > 
