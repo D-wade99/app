@@ -91,7 +91,7 @@ const Profile = () => {
       
       <footer>
         <div className="footer__container">
-          <div className="footer__row border-solid border-1 border-t-gray-200">
+          <div className="footer__row  border-t-2 pt-8">
             <div className="footer__wrapper">
             <div className="m-4">
               <img src={zuri} alt="" />

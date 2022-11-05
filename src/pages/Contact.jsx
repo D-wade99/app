@@ -37,26 +37,16 @@ const Contact = () => {
           <button id="btn__submit" className="w-full mt-[32px] bg-blue-700 text-white hover:bg-blue-800 border boder-solid rounded-lg">Send message</button>
         </form>
       </div>
-        <footer >
-          <div className=" footer__container w-2/3 mx-auto py-8">
-            <div className="footer__row border-solid border-1 border-t-gray-200">
-              <div className="footer__wrapper">
-              <div className="mb-4">
-                <img src={zuri} alt="" />
-              </div>
-
-              <div className="mb-4">
-                <p>HNG Internship 9 Frontend Task</p>
-              </div>
-
-              <div className="mb-4">
-                <img src={ingress} alt="" />
-              </div>
+        <footer className="flex md:flex-row flex-col justify-between py-10 mt-[100px] lg:mx-[113px] mx-5 border-t-2 " > 
+                <img src={zuri} alt="/" className='md:w-[170px] w-[120px] ' />
               
-              </div>
-            </div>
-            
-          </div>
+
+              
+                <p className="text-gray-500 font-inter py-3 " >HNG Internship 9 Frontend Task</p>
+              
+
+              
+                <img src={ingress} alt="/" className='md:w-[100px] md:h-[40px] w-[120px] ' />
         </footer>
 
       </div>
